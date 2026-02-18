@@ -1,7 +1,7 @@
 from src.assignment7.util import generate_logo
 
 def test_invalid_thickness():
-    assert generate_logo(4) == []  # even number
+    assert generate_logo(4) == []  
 
 
 def test_valid_thickness():
