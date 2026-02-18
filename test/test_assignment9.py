@@ -5,8 +5,8 @@ def test_average_calculation():
     columns = ["ID", "NAME", "MARKS"]
     students = [
         ["1", "Aish", "50"],
-        ["2", "Bob", "60"],
-        ["3", "Cat", "70"]
+        ["2", "B", "60"],
+        ["3", "C", "70"]
     ]
 
     assert calculate_average(n, columns, students) == 60.00
