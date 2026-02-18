@@ -4,7 +4,7 @@ def main():
     rows, cols = map(int, input().split())
     data = []
 
-    for _ in range(rows):
+    for i in range(rows):
         row = list(map(int, input().split()))
         data.append(row)
 
